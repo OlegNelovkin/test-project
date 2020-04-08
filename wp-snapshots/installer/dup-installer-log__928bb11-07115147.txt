@@ -1,0 +1,338 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:39:39
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 5.6.40                                |5.6.40
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-04-07 11:51:47
+WP VERSION__________: 5.4
+DUP VERSION_________: 1.3.28
+DB__________________: 5.7.21
+DB TABLES___________: 13
+DB ROWS_____________: 407
+DB FILE SIZE________: 2.23MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 5.6.40 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.10 (Unix)
+DOC ROOT____________: "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://f99638e7.beget.tech/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200407_test_928bb1154acbe5aa8516_20200407115147_archive.zip"
+SIZE________________: 23.07MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/home/f/f99638e7/f99638e7.beget.tech/public_html/20200407_test_928bb1154acbe5aa8516_20200407115147_archive.zip' -d '/home/f/f99638e7/f99638e7.beget.tech/public_html' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 03:39:41 - RUNTIME: 1.5561 sec.
+[PHP ERR][ISSUE] MSG:Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [CODE:8192|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [CODE:8192|FILE:Unknown|LINE:0]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:40:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.21 -- Build Server: 5.7.21
+FILE SIZE:	dup-database__928bb11-07115147.sql (621.23KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/f/f99638e7/f99638e7.beget.tech/public_html/dup-installer/dup-installer-data__928bb11-07115147.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	1
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (160)
+wp_postmeta: (173)
+wp_posts: (31)
+wp_term_relationships: (12)
+wp_term_taxonomy: (6)
+wp_termmeta: (0)
+wp_terms: (6)
+wp_usermeta: (20)
+wp_users: (1)
+Removed '26' cache/transient rows
+
+INSERT DATA RUNTIME: 0.1432 sec.
+STEP-2 COMPLETE @ 03:40:15 - RUNTIME: 0.1471 sec.
+[PHP ERR][ISSUE] MSG:Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [CODE:8192|FILE:Unknown|LINE:0]
+[PHP ERR][ISSUE] MSG:Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [CODE:8192|FILE:Unknown|LINE:0]
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:40:22
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "test"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+path_new______________: "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+siteurl_______________: "http://f99638e7.beget.tech"
+url_old_______________: "http://f99638e7.beget.tech"
+url_new_______________: "http://f99638e7.beget.tech"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "f99638e7_test"
+dbname________________: "f99638e7_test"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   173][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"\home\f\f99638e7\f99638e7.beget.tech\public_html" => "/home/f/f99638e7/f99638e7.beget.tech/public_html"
+	SEARCH  2:"\\home\\f\\f99638e7\\f99638e7.beget.tech\\public_html" => "\/home\/f\/f99638e7\/f99638e7.beget.tech\/public_html"
+	SEARCH  3:"%5Chome%5Cf%5Cf99638e7%5Cf99638e7.beget.tech%5Cpublic_html" => "%2Fhome%2Ff%2Ff99638e7%2Ff99638e7.beget.tech%2Fpublic_html"
+	SEARCH  4:"https://f99638e7.beget.tech" =====================> "http://f99638e7.beget.tech"
+	SEARCH  5:"https:\/\/f99638e7.beget.tech" ===================> "http:\/\/f99638e7.beget.tech"
+	SEARCH  6:"https%3A%2F%2Ff99638e7.beget.tech" ===============> "http%3A%2F%2Ff99638e7.beget.tech"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:410 	|	 Cells:2246 
+UPDATED:	Tables:0 	|	 Rows:0 	|	 Cells:0 
+ERRORS:		0 
+RUNTIME:	0.033200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""f99638e7_test""
+	UPDATE DB_USER ""f99638e7_test""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__928bb11-07115147' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:40:22 - RUNTIME: 0.1408 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+====================================
+[PHP ERR][ISSUE] MSG:Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. [CODE:8192|FILE:Unknown|LINE:0]

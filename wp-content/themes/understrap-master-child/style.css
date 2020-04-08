@@ -1,0 +1,47 @@
+/*
+Theme Name: UnderStrap Child
+Theme URI: https://understrap.com
+Template: understrap-master
+Author: Oleg Nelovkin
+Version: 1.0
+
+*/
+
+.homepage_section {
+	padding: 50px 0px;
+}
+.homepage_section a {
+	text-decoration: none;
+}
+.property_title {
+	padding-top: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color:#000 !important;
+}
+.homepage_section h2 {
+	text-align: center;
+	padding: 20px 0px;
+}
+.post_thumb {
+	height: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.single_post {
+	padding: 50px 0px;
+}
+.page_title {
+	padding-bottom: 30px;
+	text-align: center;
+}
+.navbar-brand img {
+	max-width: 150px;
+}
+.add_prorerty_form {
+	max-width: 500px;
+	margin: auto;
+}
+.big {
+	height: 300px;
+}
